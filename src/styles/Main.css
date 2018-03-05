@@ -1,0 +1,33 @@
+/* Base Application Styles */
+/*@font-face{*/
+  /*font-family:"Helvetica Neue";*/
+  /*src:url("./fonts/circular.eot"); !* IE9 Compat Modes *!*/
+  /*src:url("./fonts/circular.eot?#iefix") format("eot"), !* IE6-IE8 *!*/
+  /*url("./fonts/circular.woff") format("woff"); !* Pretty Modern Browsers *!*/
+/*}*/
+
+body {
+  background-color: white;
+}
+
+.index {
+  background: #f4f2f3;
+  min-height: 100%;
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.index img {
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}

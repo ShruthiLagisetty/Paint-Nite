@@ -1,0 +1,122 @@
+.eventitem-component {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  flex-wrap: wrap;
+  width: 260px;
+  float: left;
+  padding-right: 16px;
+  padding-top: 16px;
+  background-color: #f4f2f3;
+  min-height: 430px;
+  border-radius: 5px;
+}
+.card-banner {
+  position: absolute;
+  display: inline-block;
+  padding-left: 32px;
+  width: 100px;
+  color: white;
+  font-size: small;
+}
+.card-banner > div {
+  padding-left: 4px;
+  background-color: gray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card-banner > div > .time {
+  font-size: xx-small;
+}
+.card-img-top {
+  min-height: 230px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid gray;
+}
+.location-tickets {
+  padding-top:4px;
+  position: absolute;
+  display: inline-block;
+  top: 200px;
+  padding-left: 32px;
+  color: white;
+  background-color: #cccccc;
+  width: 100%;
+  font-size: xx-small;
+}
+.maps {
+  display: inline-block;
+}
+.maps::before{
+  vertical-align: -12px;
+  content: url("data:image/svg+xml;charset=utf-8,%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.0.0%2C%20SVG%20Export%20Plug-In%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%0D%0A%09%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aa%3D%22http%3A%2F%2Fns.adobe.com%2FAdobeSVGViewerExtensions%2F3.0%2F%22%0D%0A%09%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2230px%22%20height%3D%2230px%22%20viewBox%3D%220%200%2060%2080%22%20enable-background%3D%22new%200%200%2030%2030%22%0D%0A%09%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cdefs%3E%0D%0A%3C%2Fdefs%3E%0D%0A%3Cpath%20d%3D%22M26.7%2C0c-0.1%2C0-0.2%2C0-0.3%2C0C11.8%2C0%2C0%2C11.8%2C0%2C26.4c0%2C0.2%2C0%2C0.4%2C0%2C0.5c0%2C23.4%2C24.9%2C36.3%2C26%2C36.9c0.2%2C0.1%2C0.4%2C0.2%2C0.7%2C0.2%20s0.5-0.1%2C0.7-0.2c1-0.5%2C26-13.5%2C26-36.9c0-0.1%2C0-0.3%2C0-0.5C53.3%2C11.8%2C41.5%2C0%2C26.9%2C0C26.8%2C0%2C26.8%2C0%2C26.7%2C0L26.7%2C0z%20M26.7%2C31.8%20c-4.9%2C0-8.8-3.9-8.8-8.8s3.9-8.8%2C8.8-8.8s8.8%2C3.9%2C8.8%2C8.8S31.5%2C31.8%2C26.7%2C31.8z%22%2F%3E%0D%0A%3C%2Fsvg%3E");
+}
+.tickets {
+  padding-left: 16px;
+  display: inline-block;
+}
+.tickets:before {
+  vertical-align: -12px;
+  content: url("data:image/svg+xml;charset=utf-8,%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.0.0%2C%20SVG%20Export%20Plug-In%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%0D%0A%09%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aa%3D%22http%3A%2F%2Fns.adobe.com%2FAdobeSVGViewerExtensions%2F3.0%2F%22%0D%0A%09%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2230px%22%20height%3D%2230px%22%20viewBox%3D%220%200%2060%2080%22%20enable-background%3D%22new%200%200%2030%2030%22%0D%0A%09%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cdefs%3E%0D%0A%3C%2Fdefs%3E%0D%0A%3Cpath%20d%3D%22M58%2C0H35.1c0%2C0-0.1%2C0-0.2%2C0c-1.7%2C0-3.2%2C0.7-4.3%2C1.8l-28.8%2C29C0.7%2C31.9%2C0%2C33.4%2C0%2C35.1s0.7%2C3.2%2C1.8%2C4.3l22.8%2C22.8%20c1.1%2C1.1%2C2.6%2C1.8%2C4.3%2C1.8s3.2-0.7%2C4.3-1.8l26.1-26c2-2%2C3.6-4.4%2C4.7-7.1l0-23C64.1%2C2.7%2C61.3%2C0%2C58%2C0L58%2C0L58%2C0z%20M45.7%2C26%20c-4.3%2C0-7.7-3.5-7.7-7.7s3.5-7.7%2C7.7-7.7c4.3%2C0%2C7.7%2C3.5%2C7.7%2C7.7c0%2C0%2C0%2C0%2C0%2C0C53.4%2C22.6%2C49.9%2C26%2C45.7%2C26L45.7%2C26L45.7%2C26z%22%2F%3E%0D%0A%3C%2Fsvg%3E");
+
+}
+.card-block {
+  padding-top: 8px;
+  margin-left: 5px;
+}
+.card-location {
+  min-height: 50px;
+}
+.artist-section {
+  height: 35px;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+  padding-left: 16px;
+}
+.img-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50% !important;
+}
+.rate {
+  padding-left: 8px;
+  float: left;
+  height: 100%;
+  display: block;
+}
+.rate > .artist-name {
+  top:0;
+  font-size: xx-small;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size: small;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}

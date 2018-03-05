@@ -1,0 +1,23 @@
+.header-component {
+  background-color: #ffffff;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-bottom: 1px solid gray;
+}
+.logo-image {
+  padding-left: 90px;
+  background-color: none;
+  margin: none;
+  float: left;
+  width: 250px;
+  height: 60px;
+}
+.events{
+  padding-left: 32px;
+  padding-top: 30px;
+  bottom: 0;
+  color: green;
+}
+.row {
+  margin-right: 0px !important;
+}
